@@ -19,19 +19,20 @@
 
 -include device/samsung/galaxys2-common/BoardCommonConfig.mk
 
-TARGET_BOARD_INFO_FILE := device/samsung/i9100/board-info.txt
+TARGET_BOARD_INFO_FILE := device/samsung/i9100p/board-info.txt
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9100/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9100p/bluetooth
 
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := cyanogenmod_i9100_defconfig
 
-TARGET_SPECIFIC_HEADER_PATH += device/samsung/i9100/overlay/include
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/i9100p/overlay/include
 
 # assert
+#TODO remove all target except GT-I9100P ? what is needed to migrate from current i9100 CM ??
 TARGET_OTA_ASSERT_DEVICE := galaxys2,i9100,GT-I9100,GT-I9100M,GT-I9100P,GT-I9100T
 
 # Use the non-open-source parts, if they're present
--include vendor/samsung/i9100/BoardConfigVendor.mk
+-include vendor/samsung/i9100p/BoardConfigVendor.mk
