@@ -1,3 +1,4 @@
+#!/bin/sh
 # Copyright (C) 2012 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,5 +19,5 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-add_lunch_combo cm_i9100p-userdebug
+add_lunch_combo full_i9100p-eng
 
