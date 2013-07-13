@@ -26,7 +26,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9100p/bluetooth
 
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-TARGET_KERNEL_CONFIG := cyanogenmod_i9100_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_i9100p_defconfig
 
 # assert
 #TODO remove all target except GT-I9100P ? what is needed to migrate from current i9100 CM ??
