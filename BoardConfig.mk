@@ -24,12 +24,15 @@ TARGET_BOARD_INFO_FILE := device/samsung/i9100p/board-info.txt
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9100p/bluetooth
 
+# NFC
+BOARD_HAVE_NFC := true
+
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := cyanogenmod_i9100p_defconfig
 
 # assert
-#TODO remove all target except GT-I9100P ? what is needed to migrate from current i9100 CM ??
+#TODO remove all target except GT-I9100P ? that is needed to migrate from current i9100 CM !
 TARGET_OTA_ASSERT_DEVICE := galaxys2,i9100,GT-I9100,GT-I9100M,GT-I9100P,GT-I9100T
 
 # Use the non-open-source parts, if they're present
